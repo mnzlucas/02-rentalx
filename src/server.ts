@@ -5,6 +5,8 @@ import { router } from './routes';
 import swaggerFile from './swagger.json';
 import './database';
 
+import './share/container';
+
 const app = express();
 
 app.use(express.json());
